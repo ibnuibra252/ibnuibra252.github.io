@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url(images/background.login.jpg)
+
+}
+.waxadhan{
+  border: 3px solid rgb(32, 30, 30);
+  border-radius: 6px;
+  width: 500px;
+  height: 500px;
+  margin:80px auto;
+
+}
+
+form{
+    padding:40px 40px;
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    letter-spacing: 5px;
+
+}
+.item1 h3{
+    color: rgb(7, 7, 7);
+    font-size: 1.3em;
+    padding-bottom:20px;
+    letter-spacing: 3px;
+}
+.item2 h3{
+   
+    font-size: 1.3em;
+    padding-bottom:20px;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+.item1 input{
+    border-radius: 10px;
+    width:100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.item2 input{
+    border-radius: 10px;
+    width:100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.submit input{
+    margin-top: 60px;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: aqua;
+    
+}
+.submit input:hover{
+    background-color: red;
+    color: azure;
+}
